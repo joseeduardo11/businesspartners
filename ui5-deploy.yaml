@@ -16,7 +16,7 @@ builder:
         target:
           auth: basic
           client: 100
-          url: http://zzz-sap-g2x.sap.zeppelin.corp:9000
+          url: http://zzz-sl-sap034.zeppelin.corp/
         credentials:
           username: env:HANA_USERNAME
           password: env:HANA_PASSWORD
