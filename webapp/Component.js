@@ -2,7 +2,11 @@ sap.ui.define([
 	"sap/ui/core/UIComponent",
 	"sap/ui/Device",
 	"businesspartners/model/models"
-], function (UIComponent, Device, models) {
+], /**
+ * @param {typeof sap.ui.core.UIComponent} UIComponent 
+ * @param {typeof sap.ui.Device} Device 
+ */
+function (UIComponent, Device, models) {
 	"use strict";
 
 	return UIComponent.extend("businesspartners.Component", {
