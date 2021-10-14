@@ -14,8 +14,9 @@ builder:
       afterTask: generateCachebusterInfo
       configuration:
         target:
-          destination: Gateway_Sandbox
-          url: https://zzz-sl-sap034.zeppelin.corp:443
+          auth: basic
+          client: 100
+          url: http://zzz-sap-g2x.sap.zeppelin.corp:9000
         credentials:
           username: env:HANA_USERNAME
           password: env:HANA_PASSWORD
