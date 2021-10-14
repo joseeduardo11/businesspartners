@@ -14,10 +14,10 @@ builder:
       afterTask: generateCachebusterInfo
       configuration:
         target:
-          destination: ES5
-          url: https://sapes5.sapdevcenter.com
+          destination: Gateway_Sandbox
+          url: https://zzz-sl-sap034.zeppelin.corp:443
         app:
-          name: BUSINESSPARTNER
-          description: null
-          package: $TMP
-          transport: ""
+          name: ZBUSINESSPARTNER
+          description: "YFIORI"
+          package: "zfiori"
+          transport: "G2XK900059"
