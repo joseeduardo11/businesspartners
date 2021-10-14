@@ -16,6 +16,9 @@ builder:
         target:
           destination: Gateway_Sandbox
           url: https://zzz-sl-sap034.zeppelin.corp:443
+        credentials:
+          username: env:HANA_USERNAME
+          password: env:HANA_PASSWORD
         app:
           name: ZBUSINESSPARTNER
           description: "YFIORI"
