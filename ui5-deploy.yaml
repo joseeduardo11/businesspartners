@@ -13,15 +13,12 @@ builder:
     - name: deploy-to-abap
       afterTask: generateCachebusterInfo
       configuration:
+        ignoreCertError: true
         target:
-          auth: basic
           client: 100
-          url: http://zzz-sl-sap034.zeppelin.corp/
-        credentials:
-          username: env:HANA_USERNAME
-          password: env:HANA_PASSWORD
+          url: https://zzz-sl-sap034.zeppelin.corp:443
         app:
-          name: ZBUSINESSPARTNER
+          name: zbuspartner
           description: "YFIORI"
           package: "zfiori"
           transport: "G2XK900059"

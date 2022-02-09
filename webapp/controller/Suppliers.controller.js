@@ -9,7 +9,7 @@ sap.ui.define([
 
 		return Controller.extend("businesspartners.controller.Suppliers", {
 			onInit: function () {
-
+				const newDate = new Date();
 			}
 		});
 	});
