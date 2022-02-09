@@ -23,16 +23,12 @@
         "undeploy": "fiori undeploy --config ui5-deploy.yaml"
     },
     "devDependencies": {
-        "@ui5/cli": "^2.11.1",
+        "@ui5/cli": "^2.14.4",
         "@ui5/fs": "^2.0.6",
         "@ui5/logger": "^2.0.1",
-        "@sap/ux-ui5-tooling": "1",
+        "@sap/ux-ui5-tooling": "^1.4.6",
         "rimraf": "3.0.2",
-        "eslint": "7.32.0",
-        "@sap/eslint-plugin-ui5-jsdocs": "2.0.5",
-        "@sapui5/ts-types": "1.92.2",
-        "eslint-plugin-fiori-custom": "2.2.1",
-        "@babel/eslint-parser": "7.14.7"
+        "eslint": "^8.8.0"
     },
     "ui5": {
         "dependencies": [
